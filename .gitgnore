@@ -1,2 +1,11 @@
-*.pyc estou fazendo ignore
-ambiente/ estou fazendo ignore
+# Ambientes virtuais
+ambiente/
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Configurações de IDEs
+.vscode/
+.idea/
