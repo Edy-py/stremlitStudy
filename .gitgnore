@@ -1,13 +1,20 @@
 # Ambientes virtuais
-ambiente/
 .venv/
-IBOV.csv
+venv/
+ambiente/
 
-# Arquivos de cache do Python
+# Arquivos de dados
+*.csv
+
+# Cache Python
 __pycache__/
 *.pyc
 *.pyo
 
-# Configurações de IDEs
+# Configurações de IDE
 .vscode/
 .idea/
+
+# Outros
+.DS_Store
+Thumbs.db
